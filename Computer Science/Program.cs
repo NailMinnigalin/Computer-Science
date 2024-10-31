@@ -1,1 +1,0 @@
-﻿Console.WriteLine((int)Math.Pow(10, 6));
