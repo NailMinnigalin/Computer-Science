@@ -1,6 +1,6 @@
 ﻿namespace ComputerScience.DataStructures.Applications
 {
-    public static class ContainsDuplicateClass
+    public static class HashSetApplications
     {
         public static bool ContainsDuplicate(int[] nums)
         {
@@ -8,5 +8,7 @@
 
             return set.Count != nums.Length;
         }
+
+
     }
 }
