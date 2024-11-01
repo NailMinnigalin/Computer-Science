@@ -3,11 +3,11 @@
     public class MyHashSet
     {
         private LinkedList<int>[] _buckets;
-        private const int InitialSize = 1000;
+        private const int INITIAL_SIZE = 1000;
 
         public MyHashSet()
         {
-            _buckets = new LinkedList<int>[InitialSize];
+            _buckets = new LinkedList<int>[INITIAL_SIZE];
         }
 
         public bool Contains(int key)
